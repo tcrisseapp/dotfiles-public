@@ -11,6 +11,9 @@ require'nvim-treesitter.configs'.setup {
   indent = {
     enable = false
   },
+  autotag = {
+    enable = true,
+  },
   ensure_installed = {
     "tsx",
     "toml",
